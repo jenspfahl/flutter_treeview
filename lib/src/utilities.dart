@@ -91,7 +91,7 @@ class Utilities {
         case 'amberAccent':
           return Colors.amberAccent;
         case 'amberAccent50':
-          return Colors.amberAccent.shade50;
+          return Color.fromARGB(0xFF, 0xFF, 0xF8, 0xE1);
         case 'amberAccent100':
           return Colors.amberAccent.shade100;
         case 'amberAccent200':
@@ -123,7 +123,7 @@ class Utilities {
         case 'blueAccent':
           return Colors.blueAccent;
         case 'blueAccent50':
-          return Colors.blueAccent.shade50;
+          return Color.fromARGB(0xFF, 0xE3, 0xF2, 0xFD);
         case 'blueAccent100':
           return Colors.blueAccent.shade100;
         case 'blueAccent200':
@@ -195,7 +195,7 @@ class Utilities {
         case 'cyanAccent':
           return Colors.cyanAccent;
         case 'cyanAccent50':
-          return Colors.cyanAccent.shade50;
+          return Color.fromARGB(0xFF, 0xE0, 0xF7, 0xFA);
         case 'cyanAccent100':
           return Colors.cyanAccent.shade100;
         case 'cyanAccent200':
@@ -227,7 +227,7 @@ class Utilities {
         case 'deepOrangeAccent':
           return Colors.deepOrangeAccent;
         case 'deepOrangeAccent50':
-          return Colors.deepOrangeAccent.shade50;
+          return Color.fromARGB(0xFF, 0xFB, 0xE9, 0xE7);
         case 'deepOrangeAccent100':
           return Colors.deepOrangeAccent.shade100;
         case 'deepOrangeAccent200':
@@ -259,7 +259,7 @@ class Utilities {
         case 'deepPurpleAccent':
           return Colors.deepPurpleAccent;
         case 'deepPurpleAccent50':
-          return Colors.deepPurpleAccent.shade50;
+          return Color.fromARGB(0xFF, 0xED, 0xE7, 0xF6);
         case 'deepPurpleAccent100':
           return Colors.deepPurpleAccent.shade100;
         case 'deepPurpleAccent200':
@@ -291,7 +291,7 @@ class Utilities {
         case 'greenAccent':
           return Colors.greenAccent;
         case 'greenAccent50':
-          return Colors.greenAccent.shade50;
+          return Colors.greenAccent.shade100; // TODO set shade50 manually
         case 'greenAccent100':
           return Colors.greenAccent.shade100;
         case 'greenAccent200':
@@ -343,7 +343,7 @@ class Utilities {
         case 'indigoAccent':
           return Colors.indigoAccent;
         case 'indigoAccent50':
-          return Colors.indigoAccent.shade50;
+          return Colors.indigoAccent.shade100; // TODO set shade50 manually
         case 'indigoAccent100':
           return Colors.indigoAccent.shade100;
         case 'indigoAccent200':
@@ -375,7 +375,7 @@ class Utilities {
         case 'lightBlueAccent':
           return Colors.lightBlueAccent;
         case 'lightBlueAccent50':
-          return Colors.lightBlueAccent.shade50;
+          return Colors.lightBlueAccent.shade100; // TODO set shade50 manually
         case 'lightBlueAccent100':
           return Colors.lightBlueAccent.shade100;
         case 'lightBlueAccent200':
@@ -407,7 +407,7 @@ class Utilities {
         case 'lightGreenAccent':
           return Colors.lightGreenAccent;
         case 'lightGreenAccent50':
-          return Colors.lightGreenAccent.shade50;
+          return Colors.lightGreenAccent.shade100; // TODO set shade50 manually
         case 'lightGreenAccent100':
           return Colors.lightGreenAccent.shade100;
         case 'lightGreenAccent200':
@@ -439,7 +439,7 @@ class Utilities {
         case 'limeAccent':
           return Colors.limeAccent;
         case 'limeAccent50':
-          return Colors.limeAccent.shade50;
+          return Colors.limeAccent.shade100; // TODO set shade50 manually
         case 'limeAccent100':
           return Colors.limeAccent.shade100;
         case 'limeAccent200':
@@ -471,7 +471,7 @@ class Utilities {
         case 'orangeAccent':
           return Colors.orangeAccent;
         case 'orangeAccent50':
-          return Colors.orangeAccent.shade50;
+          return Colors.orangeAccent.shade100; // TODO set shade50 manually
         case 'orangeAccent100':
           return Colors.orangeAccent.shade100;
         case 'orangeAccent200':
@@ -503,7 +503,7 @@ class Utilities {
         case 'pinkAccent':
           return Colors.pinkAccent;
         case 'pinkAccent50':
-          return Colors.pinkAccent.shade50;
+          return Colors.pinkAccent.shade100; // TODO set shade50 manually
         case 'pinkAccent100':
           return Colors.pinkAccent.shade100;
         case 'pinkAccent200':
@@ -535,7 +535,7 @@ class Utilities {
         case 'purpleAccent':
           return Colors.purpleAccent;
         case 'purpleAccent50':
-          return Colors.purpleAccent.shade50;
+          return Colors.purpleAccent.shade100; // TODO set shade50 manually
         case 'purpleAccent100':
           return Colors.purpleAccent.shade100;
         case 'purpleAccent200':
@@ -567,7 +567,7 @@ class Utilities {
         case 'redAccent':
           return Colors.redAccent;
         case 'redAccent50':
-          return Colors.redAccent.shade50;
+          return Colors.redAccent.shade100; // TODO set shade50 manually
         case 'redAccent100':
           return Colors.redAccent.shade100;
         case 'redAccent200':
@@ -599,7 +599,7 @@ class Utilities {
         case 'tealAccent':
           return Colors.tealAccent;
         case 'tealAccent50':
-          return Colors.tealAccent.shade50;
+          return Colors.tealAccent.shade100; // TODO set shade50 manually
         case 'tealAccent100':
           return Colors.tealAccent.shade100;
         case 'tealAccent200':
@@ -631,7 +631,7 @@ class Utilities {
         case 'yellowAccent':
           return Colors.yellowAccent;
         case 'yellowAccent50':
-          return Colors.yellowAccent.shade50;
+          return Colors.yellowAccent.shade100; // TODO set shade50 manually
         case 'yellowAccent100':
           return Colors.yellowAccent.shade100;
         case 'yellowAccent200':

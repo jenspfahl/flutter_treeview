@@ -1,3 +1,7 @@
+# This is a fork of https://bitbucket.org/kevinandre/flutter_treeview/src/master/
+
+Since Flutter 3.4 `hashValues` is not accessible. To fix this and othe rbreaking changes, i forked this repo to make my dependent project running.
+
 # flutter_treeview
 
 A hierarchical data widget for your flutter apps. 
